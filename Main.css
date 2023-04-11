@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-size: cover;
+    background: #2f2f2f;
+  }
+
+h2{
+    padding: 200px 520px;
+    font-size: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(43, 226, 52);
+}
+
+.btn{
+    cursor: pointer;
+    padding-left: 0;
+    color:#000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: azure;
+}
+
+.btn:hover{
+    background-color: rgb(255, 247, 0);
+}
+
